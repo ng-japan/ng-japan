@@ -20,4 +20,7 @@ angular.module('ngJapan')
   $scope.toggleSidenav = function(menuId) {
     $mdSidenav(menuId).toggle();
   };
+  $scope.selectSection = function ( section ) {
+  	console.log(section);
+  }
 }]);

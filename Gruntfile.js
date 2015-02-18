@@ -30,7 +30,7 @@ module.exports = function (grunt) {
     'gh-pages': {
       options: {
         base: 'dist',
-        repo: 'https://github.com/albatrosary/ng-japan.git'
+        repo: 'https://github.com/ng-japan/ng-japan.github.io.git'
       },
       src: ['**']
     },
