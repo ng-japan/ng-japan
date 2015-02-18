@@ -728,4 +728,13 @@ text-align: left;
 
 .sponsor {
     height: 200px;
+    padding: 4px;
+}
+
+.sponsor-inner {
+    height: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: solid 1px #BDBDBD;
+    background-color: #fff;
 }
