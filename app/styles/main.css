@@ -723,17 +723,24 @@ text-align: left;
 }
 
 .sponsors-logo {
-    width: 300px;
+    width: 320px;
 }
 
 .sponsor {
     height: 200px;
     padding: 4px;
 }
-
+.sponsor > a{
+    height: 100%;
+    width: 100%;
+    display: table;
+}
 .sponsor-inner {
     height: 100%;
-    box-sizing: border-box;
     border: solid 1px #bdbdbd;
     background-color: #fff;
+    display: table-cell;
+    vertical-align: middle;
 }
+
+
