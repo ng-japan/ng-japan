@@ -49,14 +49,6 @@ gulp.task('extras', function () {
   }).pipe(gulp.dest('dist'));
 });
 
-gulp.task('docs', function () {
-  return gulp.src([
-    'app/docs/*',
-  ], {
-    dot: true
-  }).pipe(gulp.dest('dist/docs'));
-});
-
 gulp.task('clean', require('del').bind(null, ['.tmp', 'dist']));
 
 gulp.task('connect', function () {
@@ -106,7 +98,7 @@ gulp.task('watch', ['connect'], function () {
   gulp.watch('bower.json', ['wiredep']);
 });
 
-gulp.task('build', ['html', 'images', 'fonts', 'docs', 'extras'], function () {
+gulp.task('build', ['html', 'images', 'fonts', 'extras'], function () {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 

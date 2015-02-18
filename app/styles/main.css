@@ -5,17 +5,17 @@ font-family: 'Alegreya Sans', sans-serif;
     overflow-x: hidden;
 }
 
-li.active a { 
-    color: #3498db !important; 
+li.active a {
+    color: #424242 !important;
 }
 
 .navbar-brand {
 font-size: 23px;
-color: #3498db !important;
+color: #424242 !important;
 }
 
 .navbar-tickets {
-color:#3498db !important;
+color:#424242 !important;
 }
 
 .navbar-right a:hover {
@@ -23,12 +23,12 @@ color:#3498db !important;
 }
 
 section#home {
- background-color: #4656a0;
+ background-color: #424242;
 padding-top: 50px;
 }
 
 @media (min-width: 598px) and (max-width: 602px) {
-    #logo-react {
+    #logo-angular {
         padding-top: 16px;
     }
 }
@@ -68,29 +68,29 @@ color: white;
 margin-left: 10px;
 font-size: 12px;
 }
- 
+
 .row {
   margin-left: 0px;
     margin-right: 0px;
 }
 
-#home #name-react  {
+#home #name-angular  {
 font-size: 71px;
 color: #FFFFFF;
 text-align: right;
 }
-#home #date-react a {
+#home #date-angular a {
     color: #FFFFFF;
     text-decoration: none;
-} 
-#home #date-react {
+}
+#home #date-angular {
 font-size: 18px;
     margin-top: -15px;
     color: #FFFFFF;
     padding-left: 142px;
     text-align: right;
 }
-#home #text-react {
+#home #text-angular {
 margin-top: 80px;
 }
     #map-dialog{
@@ -110,38 +110,38 @@ padding: 25px;
  .row {
   margin-left: 0px;
     margin-right: 0px;
-}   
+}
 #home {
 }
-#text-react{
+#text-angular{
     padding-top: 25px;
 }
-#home #text-react  {
+#home #text-angular  {
 font-size: 54px;
 color: #FFFFFF;
     text-align: right;
 }
 
-#home #date-react a {
+#home #date-angular a {
     color: #FFF;
 text-decoration: none;
 }
-#home #date-react {
+#home #date-angular {
 font-size: 20px;
     color: #FFFFFF;
     text-align: right;
     margin-top: -15px;
 }
-#logo-react {
+#logo-angular {
     text-align: left;
 }
-#logo-react img{
+#logo-angular img{
     width: 150px; 
     height: 150px;
 }
  #about p {
 padding-left: 15px;
-} 
+}
 #sponsors {
 text-align: center;
 }
@@ -163,7 +163,7 @@ margin-top: 0px;
     h2.title {
 font-size: 30px;
 }
-    
+
 h3.media-heading {
 font-size: 22px;
 }
@@ -171,19 +171,19 @@ font-size: 22px;
 h4.title {
 font-size: 15px;
 }
-       
+
 }
 @media (max-width: 768px) {
-    
+
 #home{
     padding-bottom: 5px;
 }
-    
+
 h2.title {
 font-size: 30px;
 }
 
-.media-left-re { 
+.media-left-ng {
     width: 75px;
     padding: 15px;
     background-color: rgb(54,69,80);
@@ -194,41 +194,41 @@ text-align: left;
 margin-top: 10px;
 font-size: 14px;
 }
-.img-circle-re {
+.img-circle-ng {
     border: 2px solid rgb(224, 126, 36);
 }
 
-#text-react{
+#text-angular{
     padding-top: 18px;
 }
-#home #text-react  {
+#home #text-angular  {
 font-size: 23px;
 color: #FFFFFF;
     text-align: right;
 }
-#home #date-react a {
+#home #date-angular a {
     color: #FFFFFF;
     text-decoration: none;
-} 
+}
 
-#home #date-react {
+#home #date-angular {
 font-size: 16px;
     color: #FFFFFF;
     text-align: right;
     margin-top: -15px;
 }
-#logo-react {
+#logo-angular {
     text-align: left;
     padding-top: 4px;
     padding-left: 0px;
 }
-#logo-react img{
+#logo-angular img{
     width: 100px; 
     height: 100px;
 }
  #about p {
 padding-left: 15px;
-} 
+}
 #sponsors {
 text-align: center;
 }
@@ -244,7 +244,7 @@ text-align: center;
 #city {
     display: block;
 }
-  .code-re {  
+  .code-ng {  
       margin-left: 15px;
   }
 .foot div{
@@ -259,7 +259,7 @@ height: 500px;
 }
 
 @media (max-width: 320px) {
-#home #text-react  {
+#home #text-angular  {
 font-size: 20px;
 color: #FFFFFF;
     text-align: right;
@@ -302,7 +302,7 @@ section#about>div {
 font-size: 20px;
 }
 
-.btn-re {   
+.btn-ng {
 color: #2c3e50 !important;
 font-weight: bolder;
 font-size: 20px;
@@ -413,7 +413,7 @@ color: #fff;
 }
 
 #location-address a {
-    color: #173075;
+    color: #424242;
 }
 
 #location-address a:hover {
@@ -445,12 +445,12 @@ border-color: #FFFFFF;
 
 .panel-heading {
 padding: 0px; 
-border-bottom: 2px solid #173075 !important;
+border-bottom: 2px solid #424242 !important;
 border-top-left-radius: 3px;
 border-top-right-radius: 3px;
 }
 
-.fa-calendar-react {
+.fa-calendar-angular {
 color: rgb(224, 126, 36);
 }
 
@@ -470,7 +470,7 @@ h2.title {
 font-size: 39px;
 font-size: 39px;
 }
-.media-left-re { 
+.media-left-ng { 
     width: 150px;
     padding: 15px;
     background-color: rgb(54,69,80);
@@ -480,7 +480,7 @@ color: rgb(224, 126, 36);
 text-align: center;
 margin-top: 10px;
 }
-    .img-circle-re {
+    .img-circle-ng {
     border: 4px solid rgb(224, 126, 36);
 }
     .foot div{
@@ -491,20 +491,20 @@ display: inline-block;
     width: 700px;
     text-align: center;
 }
-    
+
 .google-form {
- width: 600px; 
+ width: 600px;
 height: 500px;
 }
 
 }
 
 
-.media-body-re {
+.media-body-ng {
 margin-right: 20px;
 }
 
-.media-heading-re {
+.media-heading-ng {
     color: #000;
     margin: 0px 0px 12px 0px;
     letter-spacing: 2px;
@@ -544,7 +544,7 @@ color: #5f5f5f;
 
 .foot .links a{
 color: #9f9f9f;
-padding-right: 15px;   
+padding-right: 15px;
 }
 
 .media-container {
@@ -566,7 +566,7 @@ background-color: rgb(224, 126, 36);
 }
 
 .table {
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
 }
 
 .table > thead > tr > th {
@@ -578,7 +578,7 @@ text-align: center;
 border: 2px solid #FFFFFF !important;
 }
 
-.table-re {
+.table-ng {
 margin-top: 30px;
 }
 
@@ -630,7 +630,7 @@ border-bottom: 1px solid #ddd;
     padding: 30px 0;
 }
 
-.code-re {   
+.code-ng {
 float:left;
 font-size: 15px;
 margin-top: 8px;
@@ -663,13 +663,13 @@ text-decoration: none;
 padding: 15px;
 }
 
-#react-date-link {
+#angular-date-link {
     border-bottom: dotted 2px white;
     margin: 0;
 display: inline;
 }
 @media (min-width: 598px) and (max-width: 602px) {
-    #logo-react {
+    #logo-angular {
         padding-top: 16px;
     }
     #about p {
