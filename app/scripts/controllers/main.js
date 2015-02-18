@@ -2,16 +2,13 @@
 
 /**
  * @ngdoc function
- * @name ngJapanApp.controller:MainCtrl
+ * @name ngJapan.controller:AppCtrl
  * @description
- * # MainCtrl
- * Controller of the ngJapanApp
+ * # AppCtrl
+ * Controller of the ngJapan
  */
 angular.module('ngJapan')
   .controller('AppCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
+    $scope.awesomeThings = [];
   });
