@@ -733,8 +733,7 @@ text-align: left;
 
 .sponsor-inner {
     height: 100%;
-    background-color: #fff;
     box-sizing: border-box;
-    border: solid 1px #BDBDBD;
+    border: solid 1px #bdbdbd;
     background-color: #fff;
 }
