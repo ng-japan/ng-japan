@@ -34,7 +34,7 @@
       ga('send', 'pageview');
   </script>
   </head>
-  <body  data-spy="scroll" data-target=".navbar">
+  <body data-spy="scroll" data-target=".navbar">
   <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -63,7 +63,7 @@
         <ul class="nav navbar-nav">
           <li class="active-ng"><a href="#about">About</a></li>
           <li><a href="#speakers">Speakers</a></li>
-          <li><a href="#schedule">Sessions</a></li>
+          <li><a href="#schedule">Schedule</a></li>
           <li><a href="#tickets">Tickets</a></li>
           <li><a href="#getting-there">Getting There</a></li>
           <li><a href="#sponsors">Sponsors</a></li>
@@ -180,7 +180,27 @@
         </div>
       </div>
     </div>
-<!--
+
+  <div class="col-lg-6 speaker">
+      <div class="media">
+        <a class="media-left" data-toggle="collapse" data-target="#anatoo">
+          <img class="img-circle img-circle-ng" src="https://pbs.twimg.com/profile_images/1142299475/twitter_icon.png" alt="anatoo">
+        </a>
+        <div class="media-body">
+          <h3 class="media-heading" data-toggle="collapse" data-target="#anatoo">
+            <a href="https://twitter.com/anatoo" target="_blank">anatoo</a>
+          </h3>
+          <h4 class="media-sub"></h4>
+          <div id="_anatoo" class="collapse">
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
     <div class="col-lg-6 speaker">
       <div class="media">
         <a class="media-left" data-toggle="collapse" data-target="#vvakame">
@@ -201,35 +221,184 @@
 
     <div class="clearfix"></div>
 
-    <div class="col-lg-6 speaker">
-      <div class="media">
-        <a class="media-left" data-toggle="collapse" data-target="#TBA">
-          <img class="img-circle img-circle-ng" src="images/speakers/TBA.png" alt="TBA">
-        </a>
-        <div class="media-body">
-          <h3 class="media-heading" data-toggle="collapse" data-target="#TBA">
-            <a href="#TBA">TBA</a>
-          </h3>
-          <h4 class="media-sub"></h4>
-          <div id="_TBA" class="collapse">
-            <p>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
--->
-    <div class="clearfix"></div>
-
 </div>
 </section>
 
+
 <section id="schedule">
   <div class="container">
-    <h2 class="thin title">Sessions</h2>
-    <h4 class="subtitle">Coming Soon</h4>
+    <h2 class="thin title">Schedule</h2>
+    <div class="panel-group">
+
+      <div class="media-container media-plain">
+        <span class="media-act">開場</span><span class="container-media-icons fa fa-clock-o media-icons">12:00</span>
+      </div>
+
+      <div class="media-container media-plain">
+        <span class="media-act">Opening</span><span class="container-media-icons fa fa-clock-o media-icons">13:00</span>
+      </div>
+
+      <div class="panel-collapse">
+        <div class="panel-body">
+          <ul class="media-list">
+              <!-- IgorMinar -->
+              <li class="media">
+                <div class="media-container">
+                  <div class="media-left">
+                    <div class="media-left-ng">
+                      <img class="img-circle img-circle-ng img-responsive center-block" src="images/speakers/igor.jpg" alt="IgorMinar">
+                      <div class="container-media-icons">
+                        <span class="fa fa-clock-o media-icons">
+                        </span>
+                        13:10
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-body media-right">
+                    <h3 class="media-heading media-heading-ng">AngularJS 2.0 (仮)</h3>
+                    <p class="media-detail">
+                    AngularJS
+                    </p>
+                    <div class="foot">
+                      <div class="name"><i class="fa fa-microphone"></i>Igor Minar</div>
+                      <div class="links">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <!-- anatoo -->
+            <li class="media">
+                <div class="media-container">
+                  <div class="media-left">
+                    <div class="media-left-ng">
+                      <img class="img-circle img-circle-ng img-responsive center-block" src="https://pbs.twimg.com/profile_images/1142299475/twitter_icon.png" alt="IgorMinar">
+                      <div class="container-media-icons">
+                        <span class="fa fa-clock-o media-icons">
+                        </span>
+                        14:10
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-body media-right">
+                    <h3 class="media-heading media-heading-ng">Onsen UI (仮)</h3>
+                    <p class="media-detail">
+                    Onsen UI
+                    </p>
+                    <div class="foot">
+                      <div class="name"><i class="fa fa-microphone"></i>anatoo</div>
+                      <div class="links">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <!-- Chirayu -->
+            <li class="media">
+                <div class="media-container">
+                  <div class="media-left">
+                    <div class="media-left-ng">
+                      <img class="img-circle img-circle-ng img-responsive center-block" src="images/speakers/chirayu.jpg" alt="Chirayu Krishnappa">
+                      <div class="container-media-icons">
+                        <span class="fa fa-clock-o media-icons">
+                        </span>
+                        15:10
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-body media-right">
+                    <h3 class="media-heading media-heading-ng">AngularJS 1.4 (仮)</h3>
+                    <p class="media-detail">
+                    AngularJS
+                    </p>
+                    <div class="foot">
+                      <div class="name"><i class="fa fa-microphone"></i>Chirayu Krishnappa</div>
+                      <div class="links">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <!-- vvakame -->
+            <li class="media">
+                <div class="media-container">
+                  <div class="media-left">
+                    <div class="media-left-ng">
+                      <img class="img-circle img-circle-ng img-responsive center-block" src="https://pbs.twimg.com/profile_images/566289150823768065/ddNjRCwH.jpeg" alt="vvakame">
+                      <div class="container-media-icons">
+                        <span class="fa fa-clock-o media-icons">
+                        </span>
+                        16:10
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-body media-right">
+                    <h3 class="media-heading media-heading-ng">AtScript (仮)</h3>
+                    <p class="media-detail">
+                    AtScript
+                    </p>
+                    <div class="foot">
+                      <div class="name"><i class="fa fa-microphone"></i>vvakame</div>
+                      <div class="links">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <!-- IgorMinar -->
+            <li class="media">
+                <div class="media-container">
+                  <div class="media-left">
+                    <div class="media-left-ng">
+                      <img class="img-circle img-circle-ng img-responsive center-block" src="images/speakers/brian.png" alt="Brian Ford">
+                      <div class="container-media-icons">
+                        <span class="fa fa-clock-o media-icons">
+                        </span>
+                        17:10
+                      </div>
+                    </div>
+                  </div>
+                  <div class="media-body media-right">
+                    <h3 class="media-heading media-heading-ng">New Router in AngularJS (仮)</h3>
+                    <p class="media-detail">
+                    new Router
+                    </p>
+                    <div class="foot">
+                      <div class="name"><i class="fa fa-microphone"></i>Brian Ford</div>
+                      <div class="links">
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </li>
+
+
+          </ul>
+
+          <div class="media-container media-plain">
+            <span class="media-act">Sponsors LT</span><span class="container-media-icons fa fa-clock-o media-icons">18:00</span>
+          </div>
+
+          <div class="media-container media-plain">
+            <span class="media-act">After Party</span><span class="container-media-icons fa fa-clock-o media-icons">19:00</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
 </section>
+
 
 <section id="tickets">
   <div class="container text-center">
@@ -364,18 +533,18 @@
       </div>
     </div>
 
-  <h2 class="thin title">Supporters</h2>
-  <div class="row">
-  <!-- Google  -->
-      <div class="col-sm-6 sponsor">
-        <a href="https://developers.google.com/" target=_blank>
-          <div class="sponsor-inner">
-            <img class="sponsors-logo" src="images/supporters/google.png">
-          </div>
-        </a>
+    <h2 class="thin title">Supporters</h2>
+    <div class="row">
+    <!-- Google  -->
+        <div class="col-sm-6 sponsor">
+          <a href="https://developers.google.com/" target=_blank>
+            <div class="sponsor-inner">
+              <img class="sponsors-logo" src="images/supporters/google.png">
+            </div>
+          </a>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 
 
