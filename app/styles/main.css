@@ -602,6 +602,10 @@ section#schedule {
 padding-bottom: 50px;
 }
 
+#schedule h2 {
+margin-bottom: 0;
+}
+
 section#sponsors {
 background-color: #f0f0f0;
 border-top: 1px solid #ddd;
