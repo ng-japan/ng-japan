@@ -742,6 +742,24 @@ text-align: left;
     padding: 4px;
 }
 
+.entry-btn{
+    display: inline-block;
+    border-radius: 4px;
+    padding: .6em 1em;
+    text-decoration: none;
+    margin: 1rem auto;
+    max-width: 480px;
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #f44336;
+}
+
+.entry-btn.disabled{
+    background-color: #9e9e9e;
+}
+
 .sponsors-logo {
     width: 320px;
 }
