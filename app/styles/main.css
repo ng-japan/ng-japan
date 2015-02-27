@@ -353,6 +353,7 @@ cursor: pointer;
 .media-heading {
 margin: 0px 0px 5px;
 font-weight: bolder;
+font-size: 1em;
 }
 
 /*.media-heading:hover {
@@ -704,6 +705,7 @@ font-size: 12px;
 
 .subtitle {
     text-align: center;
+    margin-top: 20px;
     margin-bottom: 30px !important;
 }
 
@@ -756,6 +758,20 @@ text-align: left;
     background-color: #f44336;
 }
 
+.entry-btn-lt{
+    display: inline-block;
+    border-radius: 4px;
+    padding: .6em 1em;
+    text-decoration: none;
+    margin: 1rem auto;
+    max-width: 480px;
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #FFF;
+    background-color: rgb(224, 126, 36);
+}
+
 .entry-btn.disabled{
     background-color: #9e9e9e;
 }
@@ -785,7 +801,6 @@ text-align: left;
 .schedule-announce{
     padding: 20px 0 0 0 ;
     text-align: center;
-    font-size: 0.7em;
 }
 
 .location-access{
@@ -819,4 +834,8 @@ text-align: left;
 
 .sns .sns-icon.google-puls:hover{
     background-color: #d34836;
+}
+
+.jp{
+    font-size: .8em;
 }
