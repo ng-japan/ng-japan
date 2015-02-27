@@ -741,7 +741,7 @@ text-align: left;
     text-align: center;
     background: #cacaca;
     color: #FFF;
-    padding: 4px;
+    padding: 0px;
 }
 
 .entry-btn{
@@ -810,7 +810,7 @@ text-align: left;
 }
 
 .sns{
-    padding: 20px 0;
+    padding: 10px 0 20px 0;
 }
 
 .sns .sns-icon{
@@ -819,7 +819,7 @@ text-align: left;
     padding: 10px;
     margin: 0 10px;
     color: #fff;
-    background-color: #9E9E9E;
+    background-color: #9e9e9e;
     border-radius: 50%;
     display: inline-block;
 }
@@ -838,4 +838,16 @@ text-align: left;
 
 .jp{
     font-size: .8em;
+}
+
+.thx {
+    background-color: #9e9e9e;
+    color: #424242;
+}
+.thx .name{
+    color: #fff;
+}
+
+.thx img{
+    width: 28px;
 }
