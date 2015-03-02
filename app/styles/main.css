@@ -487,7 +487,7 @@ h2.title {
 font-size: 39px;
 font-size: 39px;
 }
-.media-left-ng { 
+.media-left-ng {
     width: 150px;
     padding: 15px;
     border: solid 2px #ddd;
@@ -742,6 +742,10 @@ text-align: left;
     background: #cacaca;
     color: #FFF;
     padding: 0px;
+}
+
+.host{
+    text-align: center;
 }
 
 .entry-btn{
