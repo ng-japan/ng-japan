@@ -22,6 +22,14 @@ color:#424242 !important;
     background-color: #FFFFFF !important;
 }
 
+.youtube{
+    text-align: center;
+}
+
+#presentations .links span{
+    margin-right: .5em;
+}
+
 section#home {
  background-color: #424242;
 padding-top: 50px;
@@ -334,6 +342,11 @@ border-color: #2c3e50;
 
 .fa-border:hover {
 border-color: #FFFFFF;
+}
+
+section#speakers {
+    padding-bottom: 40px;
+    background-color: #f0f0f0;
 }
 
 
